@@ -1,0 +1,67 @@
+/*Religion and superstition css file*/
+
+
+/* Fixa musen på sidan av hemsidan*/
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#headerdiv{
+    height:12vh;
+    width:100vw;
+    background-color: white;
+}
+
+
+
+
+#navdiv{
+    height:7.5vh;
+    width:100vw;
+    background-color: darkred;
+}
+
+        #navmenu{ /*Detta är menyn*/
+          height:6vh;
+          width: 25vw;
+          float: left;
+          text-align: center;
+          padding-top: 1.5vh;
+          }
+
+          #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/
+              background-color: darkred; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
+              color: white;
+              text-decoration: none; /*ingen underlining*/
+          }
+
+
+
+
+#background{ /*Bakgrundsbilden*/
+      height:150vh;
+      width:100vw;
+      background-image: url(http://www.backgroundcheckall.com/wp-content/uploads/2017/12/renaissance-background-4.jpg);
+}
+
+
+          #articletitle{ /*hela vita bakgrunden är denna div. titeltexten stylas under*/
+            opacity: 0.9;
+            height:129vh;
+            width:55vw;
+            margin-left: 22vw;
+            background-color: white;
+            position: absolute;
+            text-align: center;
+            margin-top: 12vh;
+            padding-top: 9vh;
+          }
+
+          #text{ /*text-diven i mitten av vita backgrunden*/
+              width: 50vw;
+              margin-top: 12vh;
+              margin-left: 3vw;
+              text-align: center;
+          }
