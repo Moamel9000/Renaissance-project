@@ -1,0 +1,96 @@
+/*Stylesheet Renaissance project*/
+
+/*Indragen css-kod innebär att grejerna tillhör diven ovan*/
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#headerdiv{
+    height:12vh;
+    width:100vw;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+#navdiv{
+    height:7.5vh;
+    width:100vw;
+    background-color: darkred;
+}
+
+        #navmenu{ /*Detta är menyn*/
+            height:6vh;
+            width: 25vw;
+            float: left;
+            text-align: center;
+            padding-top: 1.5vh;
+          }
+
+          #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/
+              background-color: darkred; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
+              color: white;
+              text-decoration: none; /*ingen underlining*/
+          }
+
+
+
+
+#maindiv{ /*Bakgrunden skall vara en bild*/
+    height:150vh;
+    width:92vw;
+    padding-left: 8vw;
+    background-image: url(http://www.backgroundcheckall.com/wp-content/uploads/2017/12/renaissance-background-4.jpg);
+}
+
+
+
+
+        .artiklarna img{/*för att fixa bilder och anpassa dem till bilder*/
+            height: 100%;
+            width: 100%;
+        }
+
+          .artiklarna{ /*class i css skrivs med .*/
+              border: 3px solid white; /*går det med en fade faärg*/
+              height: 30vh;
+              width: 28vw;
+              float: left;
+              margin-left: 8vw;
+              margin-top: 5vh;
+            }
+
+                  .artikelnamn{
+                      height: 5vh;
+                      width:10vw;
+                      background-color: black;
+                      border: 1px solid white;
+                      text-align: center;
+                      position:absolute;
+                      margin-top: 10vh;
+                      margin-left: 8vw;
+                    }
+
+
+                    .artikelnamn p{
+                        color: white;
+                        font-size: 20px;
+                        font-style:italic; /*texten och stylen på allt ändras senare*/
+                    }
+
+                    .transbox{
+                    background-color: #ffffff;
+                    opacity: 0.6;
+                    filter: alpha(opacity=60); /* For IE8 and earlier */
+                    width:40Vw;
+                    height:147vh;
+                    position: absolute;
+                    text-align: center;
+                    margin-left: 30vw;
+                    margin-top: 3vh;
+
+                  }
