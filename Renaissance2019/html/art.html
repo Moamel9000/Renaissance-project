@@ -10,7 +10,6 @@
         *{
           margin:0;
           padding:0;
-          font-family: florentinaregular;       /* https://www.w3schools.com/csSref/css3_pr_font-face_rule.asp */
           }
 
           @font-face {
@@ -18,10 +17,32 @@
             src: url(florentia.regular.ttf);
           }
 
+          @font-face {
+            font-family: humanisticmedium;
+            src: url(humanistic.medium.ttf);
+          }
+
+          @font-face {
+            font-family: proximanova;
+            src: url(proximanova.ttf);
+          }
+
+          @font-face {
+            font-family: bookerly;
+            src: url(bookerly.ttf);
+          }
+
+          @font-face {
+            font-family: LiterataBook;
+            src: url(LiterataBook.otf);
+          }
+
           #headerdiv{
           height:12vh;
           width:100vw;
           text-align: center;
+          font-family: humanisticmedium;
+          font-size: 35px;
           }
           #navdiv{
           height:7.5vh;
@@ -54,7 +75,7 @@
           }
           #background{
             background-image: url(possback.jpg);
-            height: 160vh;
+            height: 174vh;
             width: 100vw;
           }
           .transbox{
@@ -62,13 +83,14 @@
           opacity: 0.75;
           filter: alpha(opacity=60); /* For IE8 and earlier */
           width: 38vw;
-          height: 140vh;
+          height: 157vh;
           margin-left: 26vw;
           margin-right: 26vw;
           margin-top:12vh;
           padding-left: 5vw;
           padding-right: 5vw;
           position: absolute;
+          font-family: LiterataBook;
 
         }
         #hett{
