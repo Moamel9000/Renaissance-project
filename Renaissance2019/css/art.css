@@ -6,27 +6,27 @@
 
   @font-face {
     font-family: florentinaregular;
-    src: url(florentia.regular.ttf);
+    src: url(../fonts/florentia.regular.ttf);
   }
 
   @font-face {
     font-family: humanisticmedium;
-    src: url(humanistic.medium.ttf);
+    src: url(../fonts/humanistic.medium.ttf);
   }
 
   @font-face {
     font-family: proximanova;
-    src: url(proximanova.ttf);
+    src: url(../fonts/proximanova.ttf);
   }
 
   @font-face {
     font-family: bookerly;
-    src: url(bookerly.ttf);
+    src: url(../fonts/bookerly.ttf);
   }
 
   @font-face {
     font-family: LiterataBook;
-    src: url(LiterataBook.otf);
+    src: url(../fonts/LiterataBook.otf);
   }
 
   #headerdiv{
@@ -66,7 +66,7 @@
     text-align: center;
   }
   #background{
-    background-image: url(Renaissance2019/img/possback.jpg);
+    background-image: url(../img/possback.jpg);
     height: 174vh;
     width: 100vw;
   }
