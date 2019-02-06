@@ -6,7 +6,7 @@
 
   @font-face {
     font-family: florentinaregular;
-    src: url(../fonts/florentia.regular.ttf);
+    src: url(../fonts/florentia.regular.ttf);       /* all of the fonts */
   }
 
   @font-face {
@@ -71,20 +71,23 @@
     width: 100vw;
   }
   .transbox{
-  background-color: #ffffff;
-  opacity: 0.75;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  width: 38vw;
+  background-color: #ffffff;      /* background colour white */
+  opacity: 0.75;              /* Opacity */
+  filter: alpha(opacity=60); /* Opacity */
+  width: 38vw;              /* sizes, padding and margin */
   height: 157vh;
   margin-left: 26vw;
   margin-right: 26vw;
   margin-top:12vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  position: absolute;
-  font-family: LiterataBook;
+  position: absolute;           /* prioritizing, pushing it forward */
+  font-family: LiterataBook;    /* font */
+
+  border-radius: 25px;                /* border + rounded */
+  border: 2px solid #000000;
 
 }
 #hett{
-  font-size: 23px;
+  font-size: 23px;        /* text size */
 }
