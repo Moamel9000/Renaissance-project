@@ -9,7 +9,7 @@
 
 #headerdiv{
     height:12vh;
-    width:100vw;
+    width:100%;
     background-color: white;
     text-align: center;
 }
@@ -19,7 +19,7 @@
 
 #navdiv{
     height:7.5vh;
-    width:100vw;
+    width:100%;
     background-color: darkred;
 }
 
@@ -41,11 +41,11 @@
 
 
 #maindiv{ /*Bakgrunden skall vara en bild*/
-    height:150vh;
+    height:142vh;
     width:92vw;
     padding-left: 8vw;
-    background-image: url(http://www.backgroundcheckall.com/wp-content/uploads/2017/12/renaissance-background-4.jpg);
-}
+    background-image: url(../img/possback.jpg);
+  }
 
 
 
@@ -84,10 +84,10 @@
 
                     .transbox{
                     background-color: #ffffff;
-                    opacity: 0.6;
-                    filter: alpha(opacity=60); /* For IE8 and earlier */
-                    width:40Vw;
-                    height:147vh;
+                    opacity: 0.75;
+                    filter: alpha(opacity=75); /* For IE8 and earlier */
+                    width:50Vw;
+                    height:136vh;
                     position: absolute;
                     text-align: center;
                     margin-left: 30vw;

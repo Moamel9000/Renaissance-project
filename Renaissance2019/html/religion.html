@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="Sv">
+
+  <head>
+        <title> Religion </title>
+        <meta charset="UTF-8">
+        <link href="../css/religion.css" rel="stylesheet">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+        <script>
+                $.get('../txt/text.txt', function(data){
+                  document.getElementById("text").innerHTML = data;
+                });
+
+        </script>
+
+  </head>
+
+
+
+  <body>
+
+    <div id="headerdiv"> <!--Diven där titeln ingår!-->
+        <h1> The Renaissance </h1>
+    </div>
+
+
+    <div id="navdiv"> <!--Diven där menyn av artiklerna ingår!-->
+
+      <div id=navmenu>
+        <nav> <!--Menyn där vi länkar alla artiklar!-->
+
+          <a href="index.html"> Homepage </a>
+          <a href="index.html"> GRUPPARTIKELN </a>
+          <a href="../html/articeltest.html"> History </a>
+          <a href="../html/religion.html"> Religion </a>
+          <a href="../html/art.html"> Art </a>
+          <a href="../html/renasancetext.html"> Government </a>
+
+        </nav>
+      </div>
+
+    </div>
+
+
+    <div id="background"> <!--Denna div skall vara bakgrundsbilden, artikeln skall ligga på!-->
+
+          <div id="articletitle">  <!--Denna div skall vara den vita bakgrunden till texten. titeln är även i denna div. själva texten i separat div i denna!-->
+              <h2> Religion during the Renaissance </h2>
+
+              <div id="text">
+
+              </div>
+
+          </div>
+
+
+    </div>
+
+
+
+
+
+
+
+  </body>

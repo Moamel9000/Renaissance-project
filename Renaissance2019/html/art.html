@@ -6,97 +6,9 @@
         <title> Art </title>
         <meta charset="UTF-8">
 
-        <style>
-        *{
-          margin:0;
-          padding:0;
-          }
+        <link href="../css/art.css" rel="stylesheet">
 
-          @font-face {
-            font-family: florentinaregular;
-            src: url(florentia.regular.ttf);
-          }
 
-          @font-face {
-            font-family: humanisticmedium;
-            src: url(humanistic.medium.ttf);
-          }
-
-          @font-face {
-            font-family: proximanova;
-            src: url(proximanova.ttf);
-          }
-
-          @font-face {
-            font-family: bookerly;
-            src: url(bookerly.ttf);
-          }
-
-          @font-face {
-            font-family: LiterataBook;
-            src: url(LiterataBook.otf);
-          }
-
-          #headerdiv{
-          height:12vh;
-          width:100vw;
-          text-align: center;
-          font-family: humanisticmedium;
-          font-size: 35px;
-          }
-          #navdiv{
-          height:7.5vh;
-          width:100vw;
-          background-color: darkred;
-          position: absolute;
-          }
-
-            #navmenu{ /*Detta är menyn*/
-            height:8vh;
-            width: 25vw;
-            float: left;
-            text-align: center;
-            padding-top: 1.5vh;
-          }
-
-          #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/
-              background-color: darkred; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
-              color: white;
-              text-decoration: none; /*ingen underlining*/
-          }
-          #text{
-            text-align: left;
-          }
-          #text h3{
-            text-align: center;
-          }
-          #text h1{
-            text-align: center;
-          }
-          #background{
-            background-image: url(possback.jpg);
-            height: 174vh;
-            width: 100vw;
-          }
-          .transbox{
-          background-color: #ffffff;
-          opacity: 0.75;
-          filter: alpha(opacity=60); /* For IE8 and earlier */
-          width: 38vw;
-          height: 157vh;
-          margin-left: 26vw;
-          margin-right: 26vw;
-          margin-top:12vh;
-          padding-left: 5vw;
-          padding-right: 5vw;
-          position: absolute;
-          font-family: LiterataBook;
-
-        }
-        #hett{
-          font-size: 23px;
-        }
-        </style>
   </head>
 
   <body>
@@ -116,7 +28,7 @@
 
     </div>
 
-    <div id="text" class="transbox">
+    <div id="text" class="transbox"> <!--Style för text och textboxen!-->
       <br>
       <h1 id="hett"> Renaissance, the era of Greats </h1>
       <p> Did you know that the Renaissance is the era of Raphael, Michelangelo and Leonardo Da Vinci? These artists dominate the period and are by many considered to be the best painters ever. The “Mona Lisa” and the “Sistine Chapel ceiling” are some of the very famous paintings  produced during the Renaissance. Italy was therefore a driving force in the world of art and the city of Florence was a hub for artists and their ideas. <p>
@@ -172,7 +84,9 @@
         <p>To summarize; during the Renaissance art focused on the values of humanism using new techniques like sfumato, different colours and how humans were painted. The catholic church had a lot of influence, thus a lot of paintings include God or religious themes. The art world had some of its most well known pieces produced during the Renaissance. The period truly took effect in southern Europe, specifically Florence and Italy. </p>
     </div>
 
-    <div id="background">
+    <div id="background"> <!--bakgrunden!-->
+      <img src="../img/possback.jpg" alt="Bild">
     </div>
+
     </body>
     </html>
