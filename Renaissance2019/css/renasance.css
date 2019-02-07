@@ -44,8 +44,8 @@
     height:142vh;
     width:92vw;
     padding-left: 8vw;
-    background-image: url(http://www.backgroundcheckall.com/wp-content/uploads/2017/12/renaissance-background-4.jpg);
-}
+    background-image: url(../img/possback.jpg);
+  }
 
 
 
@@ -84,9 +84,9 @@
 
                     .transbox{
                     background-color: #ffffff;
-                    opacity: 0.6;
-                    filter: alpha(opacity=60); /* For IE8 and earlier */
-                    width:40Vw;
+                    opacity: 0.70;
+                    filter: alpha(opacity=70); /* For IE8 and earlier */
+                    width:45Vw;
                     height:136vh;
                     position: absolute;
                     text-align: center;
