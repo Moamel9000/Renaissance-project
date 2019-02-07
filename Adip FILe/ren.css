@@ -39,28 +39,28 @@
 
 
           #maindiv{ /*Bakgrunden ska vara en bild som beskriver renässansen*/
-            height:230vh;
+            height:175vh;
             width:92vw;
             padding-left: 8vw;
-            background-image: url(http://www.backgroundcheckall.com/wp-content/uploads/2017/12/renaissance-background-4.jpg);
+            background-image: url(https://github.com/Moamel9000/Renaissance-project/blob/master/Renaissance2019/img/possback.jpg?raw=true);
+            background-repeat: space;
         }
 
         #history{ /* Text fönstret ska vara genomskinligt, så att man kan se bakgrundsbilden */
-         height: 210vh;
-         width: 50vw;
+         height: 160vh;
+         width: 75vw;
         background-color: #ffffff;
         opacity: 0.75;
         filter: alpha(opacity=60);
         position: absolute;
-        margin-left: 15vw;
-        margin-top: 8vh;
+        margin-left: 3vw;
+        margin-top: 5vh;
         padding-right:1.5vw;
         padding-left: 1.5vw;
         padding-top: 3.5vh;
         font-family: cursive;
-
-
-
+        border-radius: 25px;
+        border: 2px solid #000000;
 
 
         }
