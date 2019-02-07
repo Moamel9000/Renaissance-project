@@ -68,7 +68,6 @@
   #background img{
     height: 100%;
     width: 100%;
-    background-repeat: repeat;
   }
   .transbox{
   background-color: #ffffff;      /* background colour white */
@@ -81,7 +80,7 @@
   margin-top:12vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  position: absolute;           /* prioritizing, pushing it forward */
+  position: relative;           /* prioritizing, pushing it forward */
   font-family: LiterataBook;    /* font */
 
   border-radius: 25px;                /* border + rounded */
