@@ -8,34 +8,51 @@
   padding:0;
 }
 
+
 #headerdiv{
-    height:12vh;
-    width:100vw;
+    height:10vh;
+    width:100%;
     background-color: white;
 }
+
+
+            #headerdiv h1{
+                  margin-top: 2vh;
+                  margin-left: 1vw;
+                  font-family: serif;
+                  font-weight: bold;
+                  font-size: 36px;
+
+            }
 
 
 
 
 #navdiv{
     height:7.5vh;
-    width:100vw;
+    width:100%;
     background-color: darkred;
 }
 
         #navmenu{ /*Detta är menyn*/
-          height:6vh;
-          width: 25vw;
-          float: left;
-          text-align: center;
-          padding-top: 1.5vh;
+            height:6vh;
+            width: 49vw;
+            float: left;
+            padding-top: 1.5vh;
+            padding-left: 1.5vw;
+            background-color: darkred;
           }
 
-          #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/
-              background-color: darkred; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
+          #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/ /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
               color: white;
               text-decoration: none; /*ingen underlining*/
+              margin-right: 1.5vw;
           }
+
+          #navmenu a:hover{
+              color: black;
+          }
+
 
 
 
