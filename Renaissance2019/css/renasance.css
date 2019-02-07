@@ -84,9 +84,9 @@
 
                     .transbox{
                     background-color: #ffffff;
-                    opacity: 0.70;
-                    filter: alpha(opacity=70); /* For IE8 and earlier */
-                    width:45Vw;
+                    opacity: 0.75;
+                    filter: alpha(opacity=75); /* For IE8 and earlier */
+                    width:50Vw;
                     height:136vh;
                     position: absolute;
                     text-align: center;
