@@ -59,9 +59,13 @@
 
 #background{ /*Bakgrundsbilden*/
       height:150vh;
-      width:100vw;
-      background-image: url(http://www.backgroundcheckall.com/wp-content/uploads/2017/12/renaissance-background-4.jpg);
+      width:100%;
+      background-image: url(https://i.ytimg.com/vi/Y0FcF2u13mE/maxresdefault.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
 }
+
+
 
 
           #articletitle{ /*hela vita bakgrunden är denna div. titeltexten stylas under*/
