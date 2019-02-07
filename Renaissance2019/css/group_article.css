@@ -1,0 +1,109 @@
+
+  *{
+    margin:0;   /* reseting padding + margin */
+    padding:0;
+    background-attachment: fixed;
+    }
+
+  @font-face {
+    font-family: florentinaregular;
+    src: url(../fonts/florentia.regular.ttf);       /* all of the fonts */
+  }
+
+  @font-face {
+    font-family: humanisticmedium;
+    src: url(../fonts/humanistic.medium.ttf);
+  }
+
+  @font-face {
+    font-family: proximanova;
+    src: url(../fonts/proximanova.ttf);
+  }
+
+  @font-face {
+    font-family: bookerly;
+    src: url(../fonts/bookerly.ttf);
+  }
+
+  @font-face {
+    font-family: LiterataBook;
+    src: url(../fonts/LiterataBook.otf);
+  }
+
+  #headerdiv{               /* styling for the title */
+  height:12vh;
+  width:100%;
+  text-align: left;
+  font-family: humanisticmedium;
+  font-size: 35px;
+  background-color: #ffffff;
+  }
+  #navdiv{                  /* styling for the red nav div */
+  height:7.5vh;
+  width:100%;
+  background-color: darkred;
+  position: absolute;
+  font-family: LiterataBook;
+  }
+
+  #navmenu{ /*Detta är menyn*/
+      height:6vh;
+      width: 49vw;
+      float: left;
+      padding-top: 1.5vh;
+      padding-left: 1.5vw;
+      background-color: darkred;
+      word-spacing: 50px;
+    }
+
+  #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/
+      background-color: darkred; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
+      color: white;
+      text-decoration: none; /*ingen underlining*/
+  }
+
+  #navmenu a:hover{
+      color: black;
+  }
+
+
+  #text{
+    text-align: left;       /* text styling, placement */
+  }
+  #text h3{
+    text-align: center;
+  }
+  #text h1{
+    text-align: center;
+  }
+  body{
+    background-image: url('../img/possback.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .transbox{
+  background-color: #ffffff;      /* background colour white */
+  opacity: 0.75;              /* Opacity */
+  filter: alpha(opacity=60); /* Opacity */
+  width: 38vw;              /* sizes, padding and margin */
+  height: 285vh;
+  margin-left: 26vw;
+  margin-right: 26vw;
+  margin-top:12vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: absolute;           /* prioritizing, pushing it forward */
+  font-family: LiterataBook;    /* font */
+
+  border-radius: 25px;                /* border + rounded */
+  border: 2px solid #000000;
+
+}
+#hett{
+  font-size: 23px;        /* text size */
+}
+
+.authors{
+  text-align: left;
+  font-style: italic;
+}
