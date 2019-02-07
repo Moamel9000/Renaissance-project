@@ -86,7 +86,7 @@
   opacity: 0.75;              /* Opacity */
   filter: alpha(opacity=60); /* Opacity */
   width: 38vw;              /* sizes, padding and margin */
-  height: 157vh;
+  height: 285vh;
   margin-left: 26vw;
   margin-right: 26vw;
   margin-top:12vh;
@@ -101,4 +101,9 @@
 }
 #hett{
   font-size: 23px;        /* text size */
+}
+
+.authors{
+  text-align: left;
+  font-style: italic;
 }
