@@ -7,6 +7,32 @@
   padding:0;
 }
 
+@font-face {
+  font-family: florentinaregular;
+  src: url(../fonts/florentia.regular.ttf);       /* all of the fonts */
+}
+
+@font-face {
+  font-family: humanisticmedium;
+  src: url(../fonts/humanistic.medium.ttf);
+}
+
+@font-face {
+  font-family: proximanova;
+  src: url(../fonts/proximanova.ttf);
+}
+
+@font-face {
+  font-family: bookerly;
+  src: url(../fonts/bookerly.ttf);
+}
+
+@font-face {
+  font-family: LiterataBook;
+  src: url(../fonts/LiterataBook.otf);
+}
+
+
 #headerdiv{
     height:10vh;
     width:100%;
