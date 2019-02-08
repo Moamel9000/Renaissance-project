@@ -87,13 +87,12 @@
   background-color: #ffffff;      /* background colour white */
   opacity: 0.86;              /* Opacity */
   filter: alpha(opacity=60); /* Opacity */
-  width: 44vw;              /* sizes, padding and margin */
-  height: 406vh;
-  margin-left: 24vw;
-  margin-right: 26vw;
+  width: 49vw;              /* sizes, padding and margin */
+  height: 360vh;
+  margin-left: 20vw;
   margin-top:16vh;
   margin-bottom: 9vh;
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-left: 5vw;
   padding-right: 5vw;
   position: absolute;           /* prioritizing, pushing it forward */

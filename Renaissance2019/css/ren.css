@@ -89,10 +89,10 @@
          height: 200vh;
          width: 55vw;
         background-color: #ffffff;
-        opacity: 0.85;
+        opacity: 0.86;
         filter: alpha(opacity=60);
         position: absolute;
-        margin-left: 19.5vw;
+        margin-left: 19vw;
         margin-top: 15vh;
         margin-bottom: 7vh;
         padding-right:5vw;

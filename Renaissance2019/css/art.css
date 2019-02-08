@@ -83,7 +83,7 @@
   }
   .transbox{
   background-color: #ffffff;      /* background colour white */
-  opacity: 0.85;              /* Opacity */
+  opacity: 0.86;              /* Opacity */
   filter: alpha(opacity=60); /* Opacity */
   width: 38vw;              /* sizes, padding and margin */
   height: 250vh;
