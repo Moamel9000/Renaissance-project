@@ -93,7 +93,7 @@
 
 
 
-          #text{ /*hela vita bakgrunden är denna div. titeltexten stylas under*/
+          #texten{ /*hela vita bakgrunden är denna div. titeltexten stylas under*/
             opacity: 0.86;
             height:140vh;
             width:57vw;
@@ -110,7 +110,7 @@
           }
 
 
-                  #text h2{
+                  #texten h2{
                       text-align: center;
                       font-family: LiterataBook;
                       font-size: 27px;
