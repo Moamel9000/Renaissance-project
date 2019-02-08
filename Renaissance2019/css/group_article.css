@@ -35,7 +35,7 @@
   width:100%;
   text-align: left;
   font-family: humanisticmedium;
-  font-size: 27px;
+  font-size: 27.5px;
   background-color: #ffffff;
   }
   #navdiv{                  /* styling for the red nav div */
@@ -93,6 +93,7 @@
   margin-right: 26vw;
   margin-top:16vh;
   margin-bottom: 9vh;
+  padding-top: 1vh;
   padding-left: 5vw;
   padding-right: 5vw;
   position: absolute;           /* prioritizing, pushing it forward */

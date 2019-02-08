@@ -53,7 +53,7 @@
       padding-top: 1.5vh;
       padding-left: 1.5vw;
       background-color: darkred;
-      word-spacing: 50px;
+      word-spacing: 25px;
     }
 
   #navmenu a{ /*här stylar vi endast menyen i sideabar one-diven*/
@@ -83,13 +83,14 @@
   }
   .transbox{
   background-color: #ffffff;      /* background colour white */
-  opacity: 0.75;              /* Opacity */
+  opacity: 0.85;              /* Opacity */
   filter: alpha(opacity=60); /* Opacity */
   width: 38vw;              /* sizes, padding and margin */
-  height: 157vh;
+  height: 250vh;
   margin-left: 26vw;
   margin-right: 26vw;
   margin-top:12vh;
+  margin-bottom: 9vh;
   padding-left: 5vw;
   padding-right: 5vw;
   position: absolute;           /* prioritizing, pushing it forward */
@@ -100,5 +101,5 @@
 
 }
 #hett{
-  font-size: 23px;        /* text size */
+  font-size: 23px;       /* text size */
 }

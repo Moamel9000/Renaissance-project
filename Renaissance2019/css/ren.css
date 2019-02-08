@@ -79,29 +79,33 @@
 
 
 
-          #maindiv{ /*Bakgrunden ska vara en bild som beskriver renässansen*/
-            height:175vh;
-            width:92vw;
-            padding-left: 8vw;
-            background-image: url(https://github.com/Moamel9000/Renaissance-project/blob/master/Renaissance2019/img/possback.jpg?raw=true);
-            background-repeat: space;
-        }
+          body{
+            background-image: url('../img/possback.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+          }
 
         #history{ /* Text fönstret ska vara genomskinligt, så att man kan se bakgrundsbilden */
-         height: 160vh;
-         width: 75vw;
+         height: 200vh;
+         width: 55vw;
         background-color: #ffffff;
-        opacity: 0.75;
+        opacity: 0.85;
         filter: alpha(opacity=60);
         position: absolute;
-        margin-left: 3vw;
-        margin-top: 5vh;
-        padding-right:1.5vw;
-        padding-left: 1.5vw;
-        padding-top: 3.5vh;
-        font-family: cursive;
+        margin-left: 19.5vw;
+        margin-top: 15vh;
+        margin-bottom: 7vh;
+        padding-right:5vw;
+        padding-left: 5vw;
+        padding-top: 1vh;
+        font-family: LiterataBook;
         border-radius: 25px;
         border: 2px solid #000000;
 
 
+        }
+
+
+        #history h3{
+              font-size: 27px;
         }
