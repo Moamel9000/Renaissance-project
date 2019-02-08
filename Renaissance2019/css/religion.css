@@ -19,9 +19,9 @@
             #headerdiv h1{
                   margin-top: 2vh;
                   margin-left: 1vw;
-                  font-family: serif;
-                  font-weight: bold;
-                  font-size: 36px;
+                  text-align: left;
+                  font-family: humanisticmedium;
+                  font-size: 27px;
 
             }
 
