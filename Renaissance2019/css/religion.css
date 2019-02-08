@@ -37,7 +37,7 @@
 
 
 #headerdiv{
-    height:10vh;
+    height:12vh;
     width:100%;
     background-color: white;
 }
@@ -46,7 +46,7 @@
             #headerdiv h1{
                   text-align: left;
                   font-family: humanisticmedium;
-                  font-size: 27px;
+                  font-size: 55px;
 
             }
 
