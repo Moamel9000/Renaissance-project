@@ -35,7 +35,7 @@
   width:100%;
   text-align: left;
   font-family: humanisticmedium;
-  font-size: 35px;
+  font-size: 27.5px;
   background-color: #ffffff;
   }
   #navdiv{                  /* styling for the red nav div */
@@ -85,10 +85,10 @@
   background-color: #ffffff;      /* background colour white */
   opacity: 0.86;              /* Opacity */
   filter: alpha(opacity=60); /* Opacity */
-  width: 38vw;              /* sizes, padding and margin */
+  width: 40vw;              /* sizes, padding and margin */
   height: 250vh;
-  margin-left: 26vw;
-  margin-right: 26vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
   margin-top:12vh;
   margin-bottom: 9vh;
   padding-left: 5vw;
