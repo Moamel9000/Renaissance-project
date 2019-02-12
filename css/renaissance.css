@@ -139,6 +139,18 @@ font-family: 'Raleway', sans-serif;
                 overflow: hidden;
               }
 
+              .div h3{
+                color: white;
+                background-color:rgba(72,2,2);
+                font-size: 22px;
+                position: absolute;
+                margin-left: 8.5vw;
+                margin-top: 6vh;
+                font-family: LiterataBook;
+                font-weight: 200;
+                letter-spacing: 1px;
+              }
+
               .div .div-overlay {
                 background: rgba(72,2,2);
                 position: absolute;
@@ -188,14 +200,14 @@ font-family: 'Raleway', sans-serif;
                 font-size: 14px;
                 font-weight: lighter;
                 letter-spacing: 2px;
-                margin-bottom: 1.5vh;
+                margin-bottom: 4vh;
                 font-family: LiterataBook;
               }
 
               .div-details a{
                 color:black;
                 background-color: white;
-                font-size: 15px;
+                font-size: 16px;
                 font-weight: bold;
                 text-decoration: none;
                 font-family: LiterataBook;
@@ -249,6 +261,18 @@ font-family: 'Raleway', sans-serif;
                   max-width: 290px;
                   margin: auto;
                   overflow: hidden;
+                }
+
+                .groupdiv h3{
+                  color: white;
+                  background-color:rgba(72,2,2);
+                  font-size: 22px;
+                  position: absolute;
+                  margin-left: 8.5vw;
+                  margin-top: 6vh;
+                  font-family: LiterataBook;
+                  font-weight: 200;
+                  letter-spacing: 1px;
                 }
 
                 .groupdiv .groupdiv-overlay {
