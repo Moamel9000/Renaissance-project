@@ -260,7 +260,7 @@ font-family: 'Raleway', sans-serif;
                   max-width: 290px;
                   margin: auto;
                   overflow: hidden;
-                  border-width:2px solid red;
+                  border:2px solid white;
                 }
 
                 .groupdiv h3{
