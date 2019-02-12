@@ -114,7 +114,6 @@ font-family: 'Raleway', sans-serif;
               margin-right: 11.12vw;
               margin-top: 16vh;
               margin-bottom: 1vh;
-              border: 2px solid white;
             }
 
             @media screen and (max-width: 300px){
@@ -138,6 +137,7 @@ font-family: 'Raleway', sans-serif;
                 max-width: 300px;
                 margin: auto;
                 overflow: hidden;
+                border: 3px solid white;
               }
 
               .div h3{
@@ -254,14 +254,13 @@ font-family: 'Raleway', sans-serif;
                 }
               }
 
-
-
                 .groupdiv {
                   position: relative;
                   width: 100%;
                   max-width: 290px;
                   margin: auto;
                   overflow: hidden;
+                  border-width:2px solid red;
                 }
 
                 .groupdiv h3{
