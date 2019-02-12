@@ -86,7 +86,7 @@
           }
 
         #history{ /* Text fönstret ska vara genomskinligt, så att man kan se bakgrundsbilden */
-         height: 200vh;
+         height: 246vh;
          width: 55vw;
         background-color: #ffffff;
         opacity: 0.86;
