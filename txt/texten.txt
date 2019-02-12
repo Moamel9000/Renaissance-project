@@ -1,5 +1,5 @@
 
-
+<p>
       Renaissance is the French word for rebirth. This word is used to coin an era in European history known as The Renaissance that ranged from the 14th-17th century, characterized by profound revolutionary reforms in societal norms, morals and values. Furthermore this period is signified by the shift of paradigms that permeated in science, religion, economy, culture, legislation and society.
 
       <br><br><br><br>
@@ -19,3 +19,5 @@
       <br><br>
 
       This incident was soon to be called the Reformation and resulted in West Europe dividing in half. One half still being Catholic and the other developing a new Christian alignment called Protestantism. During the great cultural and social change, new and innovative ways of thinking made it possible for people to think independently as individuals. The Renaissance and Reformation fostered a rise in humanism and secularism which would help form our modern society.
+
+</p>
