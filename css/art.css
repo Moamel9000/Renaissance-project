@@ -103,3 +103,8 @@
 #hett{
   font-size: 23px;       /* text size */
 }
+
+#tow {
+  display: none;
+  position: absolute;
+  }​
