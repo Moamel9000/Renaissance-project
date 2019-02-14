@@ -110,3 +110,16 @@
   text-align: left;
   font-style: italic;
 }
+
+button{
+  width: 10vw;
+  height: 5vh;
+  outline: 2px solid black;
+  background-color: grey;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#myDIV{
+  display: none;
+}
