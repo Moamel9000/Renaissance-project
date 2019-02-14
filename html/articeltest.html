@@ -6,6 +6,18 @@
         <title> The Renaissance  </title>
         <meta charset="UTF-8">
         <link href="../css/ren.css" rel="stylesheet"> <!-- en css fil som är länkad tilll denna htmlfil, kallas extern css-fil!-->
+
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
   </head>
 
   <body>
@@ -69,9 +81,27 @@ The typical Renaissance man was a person who questioned himself and followed his
 <p> <br> The result of this led to the creation of humanism, which would later dominate Italian Latin schools, ethical ideas and spread to the rest of Europe in the late 15th and early 1600s.
 Monarchies such as Spain, France, and England emerged as powerful and their disputes between each other dominated European politics over the next 150 years. Finally, the spread of books created by Johannes Gutenberg was so great that one could not measure it. By the end of the 14th century, around twenty cities had printing presses, which were later increased to 255 cities in the 15th century. More books for the people influenced them both intellectually and religiously.
 </p>
-			</div>
+
+  <br>
+  <br>
+  <br>
+
+      <div id="sources_div">
+
+      <button onclick="myFunction()"> Sources </button>
+    </div>
+
+      <div id="myDIV">
+        <br>
+        <p> https://www.encyclopedia.com/literature-and-arts/language-linguistics-and-literary-terms/literature-general/renaissance  </p>
+        <br>
+        <p> https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/ren%C3%A4ssans  </p>
+        <br>
+        <p> https://www.history.com/topics/renaissance/renaissance  </p>
 
 		</div>
+
+   </div>
 
 </body>
 
