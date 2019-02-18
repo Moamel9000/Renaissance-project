@@ -15,6 +15,18 @@
                   document.getElementById("texten").innerHtml = data;
                 });
 
+
+                <script>
+                function myFunction() {
+                  var x = document.getElementById("myDIV");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+                </script>
+
         </script>
 
   </head>
@@ -52,6 +64,19 @@
               <div id="texten">
 
                     <h2> Religion during the Renaissance </h2>
+
+
+                    <div id="sources_div">
+                    <button onclick="myFunction()"> Sources </button>
+                  </div>
+
+                    <div id="myDIV">
+                      <br>
+                      <p> https://en.wikipedia.org/wiki/Humanism
+                      <br>
+                          https://en.wikipedia.org/wiki/Sfumato
+                      </p>
+                    </div>
 
               </div>
 
