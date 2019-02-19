@@ -95,17 +95,21 @@
 
           #texten{ /*hela vita bakgrunden är denna div. titeltexten stylas under*/
             opacity: 0.86;
-            height:180vh;
-            width:55vw;
-            margin-left: 22vw;
+            height:187vh;
+            width:52vw;
+            margin-left: 19.5vw;
             margin-top: 16vh;
             margin-bottom: 9vh;
             padding-top: 9vh;
+            padding-left: 5vw;
+            padding-right: 5vw;
+
             border-radius: 25px;
             border: 2px solid black;
             background-color: white;
             position: absolute;
             font-family: LiterataBook;
+
           }
 
 
@@ -113,7 +117,12 @@
                       text-align: center;
                       font-family: LiterataBook;
                       font-size: 27px;
+                      margin-bottom: 6vh;
 
+                  }
+
+                  #texten h3{
+                      text-align: center;
                   }
 
                   button{               /*source knappen */
@@ -123,6 +132,7 @@
                     background-color: grey;
                     font-weight: bold;
                     font-size: 17px;
+                    margin-top: 9vh;
                   }
 
                   #myDIV{
