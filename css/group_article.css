@@ -88,7 +88,7 @@
   opacity: 0.86;              /* Opacity */
   filter: alpha(opacity=60); /* Opacity */
   width: 49vw;              /* sizes, padding and margin */
-  height: 375vh;
+  height: 425vh;
   margin-left: 20vw;
   margin-top:16vh;
   margin-bottom: 9vh;
@@ -102,6 +102,13 @@
   border: 2px solid #000000;
 
 }
+
+
+.transbox ul{
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
 #hett{
   font-size: 23px;        /* text size */
 }
