@@ -108,7 +108,7 @@ font-family: 'Raleway', sans-serif;
 
 
 
-            .container{
+            .container{ /*Divs with links on homepage*/
               float: left;
               width: 50%;
               margin-left: 8.6vw;
@@ -148,9 +148,9 @@ font-family: 'Raleway', sans-serif;
                 color: white;
                 background-color:rgba(139,0,0);
                 font-size: 22px;
-                position: absolute;
                 margin-left: 8.5vw;
                 margin-top: 6vh;
+                position: absolute;
                 font-family: LiterataBook;
                 font-weight: 200;
                 letter-spacing: 1px;
